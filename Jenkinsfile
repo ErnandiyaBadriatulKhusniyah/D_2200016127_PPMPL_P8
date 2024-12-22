@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/taufanAli65/ci-cd.git'
+                git branch: 'main', url: 'https://github.com/ErnandiyaBadriatulKhusniyah/D_2200016127_PPMPL_P8.git'
             }
         }
         stage('Install Dependencies') {
